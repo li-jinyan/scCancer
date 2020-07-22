@@ -39,7 +39,10 @@ Imports:
     SingleCellExperiment,
     stringr,
     survival,
-    survminer
+    survminer,
+    SoupX,
+    harmony,
+    liger
 Remotes: 
     github::constantAmateur/SoupX,
     github::immunogenomics/harmony,

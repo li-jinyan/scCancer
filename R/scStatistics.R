@@ -115,7 +115,7 @@ prepareData <- function(samplePath,
                         hg.mm.mix = F,
                         hg.mm.thres = 0.9,
                         mix.anno = c("human" = "hg19", "mouse" = "mm10")) {
-    raw.data = T
+    raw.data = T   #T means TRUE
     data.path <- get10Xpath(samplePath, raw.data = raw.data)
     if(is.null(data.path)){
         raw.data = F
