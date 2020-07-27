@@ -31,7 +31,6 @@ Imports:
     markdown,
     Matrix,
     methods,
-    NNLM,
     pheatmap,
     reshape2,
     scds,
