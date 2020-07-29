@@ -681,3 +681,5 @@ checkCombArguments <- function(argList){
         stop("The parameter 'comb.method' should be one of the c(\"Harmony\", \"NormalMNN\", \"SeuratMNN\", \"Raw\", \"Regression\", \"LIGER\").\n")
     }
 }
+
+

@@ -39,12 +39,12 @@ Imports:
     stringr,
     survival,
     survminer,
-    SoupX,
-    harmony,
-    liger
+    liger,
+    Rcpp,
+    rlang,
 Remotes: 
-    github::constantAmateur/SoupX,
-    github::immunogenomics/harmony,
     github::MacoskoLab/liger
 Depends: R (>= 3.5.0)
 biocViews:
+LinkingTo: 
+    Rcpp, RcppArmadillo, RcppProgress

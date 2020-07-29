@@ -552,7 +552,7 @@ bgDetScatter <- function(gene.manifest){
 #' @return A results list with all useful objects used in the function.
 #' @export
 #'
-#' @import Matrix knitr ggplot2 SoupX
+#' @import Matrix knitr ggplot2
 #' @importFrom markdown markdownToHTML
 #' @importFrom ggExtra ggMarginal
 #' @importFrom reshape2 melt
@@ -894,4 +894,7 @@ genStatReport <- function(results, savePath){
     markdownToHTML(file.path(savePath,'report-scStat.md'),
                    file.path(savePath, 'report-scStat.html'))
 }
+
+
+
 

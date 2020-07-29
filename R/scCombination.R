@@ -12,7 +12,7 @@
 #' @return A results list with all useful objects used in the function.
 #' @export
 #'
-#' @import harmony liger
+#' @import liger
 #'
 runScCombination <- function(single.savePaths, sampleNames, savePath, combName,
                              authorName = NULL,
