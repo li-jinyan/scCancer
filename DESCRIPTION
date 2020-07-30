@@ -39,7 +39,6 @@ Imports:
     stringr,
     survival,
     survminer,
-    liger,
     Rcpp,
     rlang,
     FNN,
