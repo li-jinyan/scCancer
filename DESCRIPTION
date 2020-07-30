@@ -42,9 +42,19 @@ Imports:
     liger,
     Rcpp,
     rlang,
-Remotes: 
-    github::MacoskoLab/liger
+    FNN,
+    Rtsne,
+    doSNOW,
+    foreach,
+    ggrepel,
+    ica,
+    irlba,
+    mclust,
+    patchwork,
+    plyr,
+    riverplot,
+    snow
 Depends: R (>= 3.5.0)
 biocViews:
 LinkingTo: 
-    Rcpp, RcppArmadillo, RcppProgress
+    Rcpp, RcppArmadillo, RcppProgress,RcppEigen
