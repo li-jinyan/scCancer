@@ -1,3 +1,4 @@
 # scCancer
-将liger整合进去有一些问题
+combine NNLM, liger ,harmony and SoupX into the scCancer package
+
 
